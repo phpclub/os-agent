@@ -25,6 +25,7 @@ jobs:
           && sudo apt-get -y install \
           gcc-arm-linux-gnueabihf \
           wget \
+          curl \
           git \
           build-essential
 
