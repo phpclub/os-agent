@@ -1,3 +1,6 @@
 dist/
 /.idea/vcs.xml
 /.idea/.gitignore
+/.idea/modules.xml
+/.idea/os-agent.iml
+/.idea/inspectionProfiles/Project_Default.xml

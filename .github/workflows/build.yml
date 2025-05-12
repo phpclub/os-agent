@@ -19,6 +19,15 @@ jobs:
         with:
           fetch-depth: 0 # Needed for changelog generation
 
+      - name: Install gnueabihf
+        run: |
+          apt-get -y update \
+          && apt-get -y install \
+          gcc-arm-linux-gnueabihf \
+          wget \
+          git \
+          build-essential
+
       - name: Setup go ${{ env.GOLANG_VERSION }}
         uses: actions/setup-go@v5
         with:
