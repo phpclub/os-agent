@@ -21,8 +21,8 @@ jobs:
 
       - name: Install gnueabihf
         run: |
-          apt-get -y update \
-          && apt-get -y install \
+          sudo apt-get -y update \
+          && sudo apt-get -y install \
           gcc-arm-linux-gnueabihf \
           wget \
           git \
